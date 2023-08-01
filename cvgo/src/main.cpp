@@ -81,3 +81,38 @@ int main(int argc, char* argv[]) {
 	float smoothness = 5.0;
 	for (; v->isOk(); ) {
 		// new frame
+		v->update();
+
+		// change angles
+		double angleX = initialAngles.y + v->getXAngle();
+		double angleY = v->getYAngle();
+		// player's skin hasn't been found
+		if (v->isDetected()) {
+			vec3f adjustedCurAngle = { angleY, angleX, initialAngles.z };
+			if (adjustedCurAngle.y > 180.0) adjustedCurAngle.y -= 360.0;
+			else if (adjustedCurAngle.y < -180.0) adjustedCurAngle.y += 360.0;
+			if (adjustedCurAngle.x < 90.0 && adjustedCurAngle.x > -90.0) {
+				mem->write<vec3f>(dwClientState + viewAnglesOffset, adjustedCurAngle);
+			}
+		} else {
+			mem->write<vec3f>(dwClientState + viewAnglesOffset, initialAngles);
+		}
+
+		// check if triggered
+		if (v->isTriggered()) {
+			// shoot
+			mem->write<int>(mem->modules[L"client.dll"].first + forceAttackOffset, 5);
+			std::this_thread::sleep_for(std::chrono::milliseconds(30));
+			mem->write<int>(mem->modules[L"client.dll"].first + forceAttackOffset, 4);
+		}
+
+		// user input
+		int key = cv::waitKey(1);
+		if (key == 27) {
+			break;
+		}
+	}
+	delete v;
+	delete mem;
+	return 0;
+}
