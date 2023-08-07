@@ -2,4 +2,8 @@
 
 #include <Windows.h>
 #include <TlHelp32.h>
-#include
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+
+struct pat
