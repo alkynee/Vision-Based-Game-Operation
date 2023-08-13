@@ -8,4 +8,7 @@
 
 struct patternStruct {
 	const char* pattern, * mask;
-	const wchar
+	const wchar_t* moduleName;
+	bool relative;
+	int extra;
+	std::vect
