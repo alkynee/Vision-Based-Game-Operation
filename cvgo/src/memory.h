@@ -11,4 +11,9 @@ struct patternStruct {
 	const wchar_t* moduleName;
 	bool relative;
 	int extra;
-	std::vect
+	std::vector<int> offsets;
+};
+
+class memory {
+private:
+	bool setProc
