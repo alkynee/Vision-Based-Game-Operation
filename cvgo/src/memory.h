@@ -6,4 +6,6 @@
 #include <vector>
 #include <unordered_map>
 
-struct pat
+struct patternStruct {
+	const char* pattern, * mask;
+	const wchar
