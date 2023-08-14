@@ -17,4 +17,5 @@ struct patternStruct {
 class memory {
 private:
 	bool setProcessHandle(const wchar_t* name);
-	bool setModuleInfo(const wchar_t* name
+	bool setModuleInfo(const wchar_t* name);
+	unsigned long patternScan(const char* pattern, const 
