@@ -23,4 +23,6 @@ public:
 	memory();
 	~memory();
 
-	std::unordered_map<const wchar_t*, std:
+	std::unordered_map<const wchar_t*, std::pair<unsigned long, unsigned long>> modules;
+
+	HANDLE pHan
