@@ -28,4 +28,5 @@ public:
 	HANDLE pHandle;
 	int pId;
 
-	bool init(const wchar_t* pName, std::vector<const wchar_
+	bool init(const wchar_t* pName, std::vector<const wchar_t*> moduleNames);
+	unsigned long getOffset(const pa
