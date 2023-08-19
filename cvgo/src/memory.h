@@ -32,4 +32,6 @@ public:
 	unsigned long getOffset(const patternStruct& patt);
 
 	template<class T>
-	inline T read(
+	inline T read(unsigned long address);
+	template<class T>
+	inline void write(unsigne
