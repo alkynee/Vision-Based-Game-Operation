@@ -29,4 +29,7 @@ public:
 	int pId;
 
 	bool init(const wchar_t* pName, std::vector<const wchar_t*> moduleNames);
-	unsigned long getOffset(const pa
+	unsigned long getOffset(const patternStruct& patt);
+
+	template<class T>
+	inline T read(
