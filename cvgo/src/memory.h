@@ -25,4 +25,7 @@ public:
 
 	std::unordered_map<const wchar_t*, std::pair<unsigned long, unsigned long>> modules;
 
-	HANDLE pHan
+	HANDLE pHandle;
+	int pId;
+
+	bool init(const wchar_t* pName, std::vector<const wchar_
