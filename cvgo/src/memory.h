@@ -38,4 +38,6 @@ public:
 };
 
 template<class T>
-T memory
+T memory::read(unsigned long address) {
+	T ret;
+	ReadProcessMemory(pHandle
