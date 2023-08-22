@@ -40,4 +40,8 @@ public:
 template<class T>
 T memory::read(unsigned long address) {
 	T ret;
-	ReadProcessMemory(pHandle
+	ReadProcessMemory(pHandle, (void*)address, &ret, sizeof(T), NULL);
+	return ret;
+}
+
+template
