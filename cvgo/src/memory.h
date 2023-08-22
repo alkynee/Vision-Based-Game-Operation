@@ -34,4 +34,8 @@ public:
 	template<class T>
 	inline T read(unsigned long address);
 	template<class T>
-	inline void write(unsigne
+	inline void write(unsigned long address, T value);
+};
+
+template<class T>
+T memory
