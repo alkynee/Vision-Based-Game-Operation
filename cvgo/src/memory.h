@@ -44,4 +44,5 @@ T memory::read(unsigned long address) {
 	return ret;
 }
 
-template
+template<class T>
+void memory::write(unsigned long address, T value
