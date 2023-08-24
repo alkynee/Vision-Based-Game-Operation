@@ -46,4 +46,5 @@ T memory::read(unsigned long address) {
 
 template<class T>
 void memory::write(unsigned long address, T value) {
-	WriteProcessMemory(pHandle, (void*)address, 
+	WriteProcessMemory(pHandle, (void*)address, &value, sizeof(T), NULL);
+}
