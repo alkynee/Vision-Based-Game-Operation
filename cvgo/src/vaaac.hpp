@@ -7,4 +7,6 @@
  * the following constants should be
  * altered in order to fit the user's
  * needs.
- * they're set t
+ * they're set to standard values
+ * by default, and changing them may
+ * dra
