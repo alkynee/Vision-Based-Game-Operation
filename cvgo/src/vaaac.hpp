@@ -9,4 +9,8 @@
  * needs.
  * they're set to standard values
  * by default, and changing them may
- * dra
+ * dramatically alter the library's
+ * behaviour
+ */
+
+ //          
