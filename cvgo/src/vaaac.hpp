@@ -19,4 +19,7 @@
 
 /*
  * this indicates whether to render
- * the processed im
+ * the processed image to a matrix
+ * 'frame'.
+ * this matrix can be retrieved using
+ * the 
