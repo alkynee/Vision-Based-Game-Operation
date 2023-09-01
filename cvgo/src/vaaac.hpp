@@ -18,4 +18,5 @@
  //                                   //
 
 /*
- * thi
+ * this indicates whether to render
+ * the processed im
