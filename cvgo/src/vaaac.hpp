@@ -22,4 +22,7 @@
  * the processed image to a matrix
  * 'frame'.
  * this matrix can be retrieved using
- * the 
+ * the 'getFrame()' method declared
+ * bellow
+ */
+const bool RENDER_TO_FRAM
