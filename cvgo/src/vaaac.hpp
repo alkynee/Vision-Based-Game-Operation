@@ -29,4 +29,5 @@ const bool RENDER_TO_FRAME = true;
 
 /*
  * this indicates whether to create a
- * se
+ * separate window and render the
+ * current frame
