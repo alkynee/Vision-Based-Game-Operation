@@ -25,4 +25,8 @@
  * the 'getFrame()' method declared
  * bellow
  */
-const bool RENDER_TO_FRAM
+const bool RENDER_TO_FRAME = true;
+
+/*
+ * this indicates whether to create a
+ * se
