@@ -31,4 +31,10 @@ const bool RENDER_TO_FRAME = true;
  * this indicates whether to create a
  * separate window and render the
  * current frame to that window.
- * it requires the 'RENDER_TO_FRAME
+ * it requires the 'RENDER_TO_FRAME'
+ * constant to be true
+ */
+const bool RENDER_TO_WINDOW = true;
+
+/*
+ * th
