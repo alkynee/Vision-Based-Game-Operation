@@ -38,4 +38,8 @@ const bool RENDER_TO_WINDOW = true;
 
 /*
  * this indicates whether to render
- * a small text explaining t
+ * a small text explaining to the user
+ * what to do
+ */
+const bool RENDER_SAMPLE_TEXT = true;
+
