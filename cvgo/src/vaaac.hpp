@@ -43,3 +43,6 @@ const bool RENDER_TO_WINDOW = true;
  */
 const bool RENDER_SAMPLE_TEXT = true;
 
+/*
+ * width and height of the skin color
+ * sampling recta
