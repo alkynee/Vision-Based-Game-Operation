@@ -37,4 +37,5 @@ const bool RENDER_TO_FRAME = true;
 const bool RENDER_TO_WINDOW = true;
 
 /*
- * th
+ * this indicates whether to render
+ * a small text explaining t
