@@ -45,4 +45,7 @@ const bool RENDER_SAMPLE_TEXT = true;
 
 /*
  * width and height of the skin color
- * sampling recta
+ * sampling rectangle
+ */
+const int SAMPLE_AREA_WIDTH = 30;
+const int SAMPLE_AREA_HEI
