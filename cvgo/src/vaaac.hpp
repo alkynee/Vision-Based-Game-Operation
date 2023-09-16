@@ -48,4 +48,8 @@ const bool RENDER_SAMPLE_TEXT = true;
  * sampling rectangle
  */
 const int SAMPLE_AREA_WIDTH = 30;
-const int SAMPLE_AREA_HEI
+const int SAMPLE_AREA_HEIGHT = 30;
+
+/*
+ * this is the tolerance applied to
+ * the lower and higher bo
