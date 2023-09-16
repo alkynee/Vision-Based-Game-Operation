@@ -52,4 +52,7 @@ const int SAMPLE_AREA_HEIGHT = 30;
 
 /*
  * this is the tolerance applied to
- * the lower and higher bo
+ * the lower and higher bounds of the
+ * HSV skin tone color sampled from
+ * the user.
+ * low v
