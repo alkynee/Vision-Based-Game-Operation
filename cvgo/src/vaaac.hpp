@@ -58,4 +58,8 @@ const int SAMPLE_AREA_HEIGHT = 30;
  * low values limit the range, thus
  *
  */
-const int MASK_LOW_TOLERA
+const int MASK_LOW_TOLERANCE = 50;
+const int MASK_HIGH_TOLERANCE = 25;
+
+/*
+ * width and height of
