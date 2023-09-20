@@ -55,4 +55,7 @@ const int SAMPLE_AREA_HEIGHT = 30;
  * the lower and higher bounds of the
  * HSV skin tone color sampled from
  * the user.
- * low v
+ * low values limit the range, thus
+ *
+ */
+const int MASK_LOW_TOLERA
