@@ -62,4 +62,6 @@ const int MASK_LOW_TOLERANCE = 50;
 const int MASK_HIGH_TOLERANCE = 25;
 
 /*
- * width and height of
+ * width and height of the reticle:
+ * the area centered at the middle of
+ * the scr
