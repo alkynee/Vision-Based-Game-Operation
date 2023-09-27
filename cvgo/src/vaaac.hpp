@@ -66,4 +66,5 @@ const int MASK_HIGH_TOLERANCE = 25;
  * the area centered at the middle of
  * the screen where the program will
  * look for the user's skin.
- * in case of fi
+ * in case of finding it, the object
+ * union find algorithm will start.
