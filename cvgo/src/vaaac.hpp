@@ -64,4 +64,6 @@ const int MASK_HIGH_TOLERANCE = 25;
 /*
  * width and height of the reticle:
  * the area centered at the middle of
- * the scr
+ * the screen where the program will
+ * look for the user's skin.
+ * in case of fi
