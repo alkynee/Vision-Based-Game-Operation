@@ -68,3 +68,9 @@ const int MASK_HIGH_TOLERANCE = 25;
  * look for the user's skin.
  * in case of finding it, the object
  * union find algorithm will start.
+ */
+const int RETICLE_SIZE = 40;
+
+/*
+ * if an object is detected, but the
+ 
