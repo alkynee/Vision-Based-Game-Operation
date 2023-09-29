@@ -74,4 +74,6 @@ const int RETICLE_SIZE = 40;
 /*
  * if an object is detected, but the
  * aim point is located within this
- * area, the aim point will b
+ * area, the aim point will be instantly
+ * set to zero.
+ * the reason for thi
