@@ -76,4 +76,6 @@ const int RETICLE_SIZE = 40;
  * aim point is located within this
  * area, the aim point will be instantly
  * set to zero.
- * the reason for thi
+ * the reason for this being that it's
+ * very hard to distinguish the accurate
+ * lo
