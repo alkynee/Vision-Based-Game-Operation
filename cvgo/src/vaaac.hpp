@@ -78,4 +78,5 @@ const int RETICLE_SIZE = 40;
  * set to zero.
  * the reason for this being that it's
  * very hard to distinguish the accurate
- * lo
+ * location of the aim point when the
+ * user is pointing straigh
