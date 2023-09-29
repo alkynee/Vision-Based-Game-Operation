@@ -79,4 +79,9 @@ const int RETICLE_SIZE = 40;
  * the reason for this being that it's
  * very hard to distinguish the accurate
  * location of the aim point when the
- * user is pointing straigh
+ * user is pointing straight at the
+ * camera
+ */
+const int NO_AIM_AREA_SIZE = 80;
+
+/
