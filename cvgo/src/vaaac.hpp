@@ -86,4 +86,6 @@ const int NO_AIM_AREA_SIZE = 80;
 
 /*
  * the bfs sample size represents the
- * square root of the
+ * square root of the area to scan for
+ * each node of the bfs algorithm.
+ * the lower this
