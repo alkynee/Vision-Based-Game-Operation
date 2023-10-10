@@ -90,4 +90,7 @@ const int NO_AIM_AREA_SIZE = 80;
  * each node of the bfs algorithm.
  * the lower this value, the more
  * accurate but the more noise, and the
- * more cpu 
+ * more cpu usage required as well
+ */
+const int BFS_SAMPLE_SIZE = 2;
+
