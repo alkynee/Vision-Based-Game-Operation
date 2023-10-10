@@ -84,4 +84,6 @@ const int RETICLE_SIZE = 40;
  */
 const int NO_AIM_AREA_SIZE = 80;
 
-/
+/*
+ * the bfs sample size represents the
+ * square root of the
