@@ -94,3 +94,6 @@ const int NO_AIM_AREA_SIZE = 80;
  */
 const int BFS_SAMPLE_SIZE = 2;
 
+/*
+ * smoothness is used to get rid of some
+ * of the noise i
