@@ -96,4 +96,6 @@ const int BFS_SAMPLE_SIZE = 2;
 
 /*
  * smoothness is used to get rid of some
- * of the noise i
+ * of the noise in the calculations.
+ * the higher this number, the more
+ * smoothnes
