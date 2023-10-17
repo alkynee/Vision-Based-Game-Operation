@@ -101,4 +101,8 @@ const int BFS_SAMPLE_SIZE = 2;
  * smoothness, less noise, but less
  * responsiveness as well
  */
-const int 
+const int AIM_SMOOTHNESS = 4;
+
+/*
+ * this is the minumum distance that
+ 
