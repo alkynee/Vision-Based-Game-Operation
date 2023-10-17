@@ -105,4 +105,5 @@ const int AIM_SMOOTHNESS = 4;
 
 /*
  * this is the minumum distance that
- 
+ * the aim point should travel upwards
+ * in order to be c
