@@ -106,4 +106,6 @@ const int AIM_SMOOTHNESS = 4;
 /*
  * this is the minumum distance that
  * the aim point should travel upwards
- * in order to be c
+ * in order to be considered a trigger
+ * action.
+ * it's represented as a percentage
