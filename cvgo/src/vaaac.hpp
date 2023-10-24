@@ -109,3 +109,6 @@ const int AIM_SMOOTHNESS = 4;
  * in order to be considered a trigger
  * action.
  * it's represented as a percentage
+ * of the screen real estate
+ */
+const double TRIGGER_MIN
