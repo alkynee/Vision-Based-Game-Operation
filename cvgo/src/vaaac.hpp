@@ -111,4 +111,8 @@ const int AIM_SMOOTHNESS = 4;
  * it's represented as a percentage
  * of the screen real estate
  */
-const double TRIGGER_MIN
+const double TRIGGER_MINIMUM_DISTANCE = 3.0;
+
+/*
+ * this is the maximum distance that
+ * the aim point 
