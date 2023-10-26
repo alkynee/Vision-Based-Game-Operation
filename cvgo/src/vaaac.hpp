@@ -115,4 +115,5 @@ const double TRIGGER_MINIMUM_DISTANCE = 3.0;
 
 /*
  * this is the maximum distance that
- * the aim point 
+ * the aim point is allowed to  travel 
+ * upwards in order to be consider
