@@ -119,4 +119,6 @@ const double TRIGGER_MINIMUM_DISTANCE = 3.0;
  * upwards in order to be considered a
  * trigger action.
  * it's represented as a percentage
- * 
+ * of the screen real estate
+ */
+const double TRIGGER_MAXIMUM_DISTANCE = 15.
