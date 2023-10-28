@@ -116,4 +116,7 @@ const double TRIGGER_MINIMUM_DISTANCE = 3.0;
 /*
  * this is the maximum distance that
  * the aim point is allowed to  travel 
- * upwards in order to be consider
+ * upwards in order to be considered a
+ * trigger action.
+ * it's represented as a percentage
+ * 
