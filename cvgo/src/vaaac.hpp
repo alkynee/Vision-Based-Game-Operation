@@ -121,4 +121,8 @@ const double TRIGGER_MINIMUM_DISTANCE = 3.0;
  * it's represented as a percentage
  * of the screen real estate
  */
-const double TRIGGER_MAXIMUM_DISTANCE = 15.
+const double TRIGGER_MAXIMUM_DISTANCE = 15.0;
+
+/*
+ * consider y1 as the origin y value
+ * for a tr
