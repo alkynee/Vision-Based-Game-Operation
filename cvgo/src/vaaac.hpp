@@ -127,4 +127,5 @@ const double TRIGGER_MAXIMUM_DISTANCE = 15.0;
  * consider y1 as the origin y value
  * for a trigger action, and y2 as the
  * final y value, then:
- * this value represe
+ * this value represents the absolute
+ * maximum allowed deviation from 
