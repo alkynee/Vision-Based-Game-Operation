@@ -131,4 +131,7 @@ const double TRIGGER_MAXIMUM_DISTANCE = 15.0;
  * maximum allowed deviation from y1
  * to y2 in order for the action to
  * be valid.
- * it's r
+ * it's represented as a percentage of
+ * the screen real estate
+ */
+const do
