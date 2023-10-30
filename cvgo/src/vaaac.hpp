@@ -137,4 +137,7 @@ const double TRIGGER_MAXIMUM_DISTANCE = 15.0;
 const double TRIGGER_ALLOWED_Y_DEVIATION = 3.0;
 
 /*
- * same as 'T
+ * same as 'TRIGGER_ALLOWED_Y_DEVIATION'
+ * but for the x-axis
+ */
+const dou
