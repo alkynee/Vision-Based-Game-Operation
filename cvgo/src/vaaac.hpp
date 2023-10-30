@@ -134,4 +134,7 @@ const double TRIGGER_MAXIMUM_DISTANCE = 15.0;
  * it's represented as a percentage of
  * the screen real estate
  */
-const do
+const double TRIGGER_ALLOWED_Y_DEVIATION = 3.0;
+
+/*
+ * same as 'T
