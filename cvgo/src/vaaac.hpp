@@ -140,4 +140,6 @@ const double TRIGGER_ALLOWED_Y_DEVIATION = 3.0;
  * same as 'TRIGGER_ALLOWED_Y_DEVIATION'
  * but for the x-axis
  */
-const dou
+const double TRIGGER_ALLOWED_X_DEVIATION = 2.0;
+
+//                   
