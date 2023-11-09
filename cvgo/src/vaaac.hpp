@@ -142,4 +142,6 @@ const double TRIGGER_ALLOWED_Y_DEVIATION = 3.0;
  */
 const double TRIGGER_ALLOWED_X_DEVIATION = 2.0;
 
-//                   
+//                                 //
+//--------  v  a  a  a  c  --------//
+//          
