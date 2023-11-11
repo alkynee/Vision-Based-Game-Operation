@@ -144,4 +144,9 @@ const double TRIGGER_ALLOWED_X_DEVIATION = 2.0;
 
 //                                 //
 //--------  v  a  a  a  c  --------//
-//          
+//                                 //
+
+#pragma once
+
+#include <vector>
+#inc
