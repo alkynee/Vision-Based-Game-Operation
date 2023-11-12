@@ -161,4 +161,8 @@ class vaaac {
 
 	private:
 
-		// is
+		// is everything working
+		int ok;
+
+		// player detected
+		bool detected;
