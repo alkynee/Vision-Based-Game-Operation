@@ -166,3 +166,8 @@ class vaaac {
 
 		// player detected
 		bool detected;
+
+		// resolution (square)
+		int width;
+		int height;
+		int re
