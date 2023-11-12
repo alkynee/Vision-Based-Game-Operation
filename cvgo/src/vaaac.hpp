@@ -153,4 +153,5 @@ const double TRIGGER_ALLOWED_X_DEVIATION = 2.0;
 #include <queue>
 #include <deque>
 
-#inc
+#include <opencv2/videoio.hpp>
+#include <opencv2/highgui.hpp>
