@@ -149,4 +149,8 @@ const double TRIGGER_ALLOWED_X_DEVIATION = 2.0;
 #pragma once
 
 #include <vector>
+#include <utility>
+#include <queue>
+#include <deque>
+
 #inc
