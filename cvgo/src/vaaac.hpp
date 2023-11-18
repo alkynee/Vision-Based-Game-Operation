@@ -170,4 +170,8 @@ class vaaac {
 		// resolution (square)
 		int width;
 		int height;
-		int re
+		int res;
+		int halfRes;
+
+		// computer vision vars
+		cv::VideoCapture videoCapt
