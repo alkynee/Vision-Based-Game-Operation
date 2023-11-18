@@ -174,4 +174,6 @@ class vaaac {
 		int halfRes;
 
 		// computer vision vars
-		cv::VideoCapture videoCapt
+		cv::VideoCapture videoCapture;
+		cv::Rect frameBounds;
+		cv::Rect reticleB
