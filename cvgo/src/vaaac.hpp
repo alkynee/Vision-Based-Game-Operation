@@ -176,4 +176,6 @@ class vaaac {
 		// computer vision vars
 		cv::VideoCapture videoCapture;
 		cv::Rect frameBounds;
-		cv::Rect reticleB
+		cv::Rect reticleBounds;
+		cv::Rect noAimAreaBounds;
+		cv::Mat frame;
