@@ -179,3 +179,8 @@ class vaaac {
 		cv::Rect reticleBounds;
 		cv::Rect noAimAreaBounds;
 		cv::Mat frame;
+		cv::Mat mask;
+
+		// skin tone hsv color bounds
+		int hLow;
+		int hH
