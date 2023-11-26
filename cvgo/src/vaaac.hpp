@@ -190,4 +190,7 @@ class vaaac {
 		int vHigh;
 
 		// breadth first search system
-		std::vector<std::pair<int, int>
+		std::vector<std::pair<int, int>> bfsOffsets;
+
+		// aimed at point location
+		double
