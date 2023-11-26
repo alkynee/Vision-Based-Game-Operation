@@ -197,4 +197,8 @@ class vaaac {
 		double yAngle;
 
 		// stepped point location
+		double xAngleSmooth;
+		double yAngleSmooth;
+
+		// trigger system
 		
