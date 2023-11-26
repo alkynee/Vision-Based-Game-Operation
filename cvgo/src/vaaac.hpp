@@ -193,4 +193,8 @@ class vaaac {
 		std::vector<std::pair<int, int>> bfsOffsets;
 
 		// aimed at point location
-		double
+		double xAngle;
+		double yAngle;
+
+		// stepped point location
+		
