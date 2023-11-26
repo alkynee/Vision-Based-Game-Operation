@@ -183,4 +183,10 @@ class vaaac {
 
 		// skin tone hsv color bounds
 		int hLow;
-		int hH
+		int hHigh;
+		int sLow;
+		int sHigh;
+		int vLow;
+		int vHigh;
+
+		/
