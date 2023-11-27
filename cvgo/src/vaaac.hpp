@@ -201,4 +201,7 @@ class vaaac {
 		double yAngleSmooth;
 
 		// trigger system
-		
+		bool triggered;
+		bool increment;
+		int yxDeltaSize;
+		int TRIGGER_
