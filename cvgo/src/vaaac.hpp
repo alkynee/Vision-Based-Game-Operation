@@ -204,4 +204,5 @@ class vaaac {
 		bool triggered;
 		bool increment;
 		int yxDeltaSize;
-		int TRIGGER_
+		int TRIGGER_MINIMUM_DISTANCE_PIXELS;
+		int TRIGGER_MAXIMUM_DIST
