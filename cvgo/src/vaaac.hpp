@@ -205,4 +205,6 @@ class vaaac {
 		bool increment;
 		int yxDeltaSize;
 		int TRIGGER_MINIMUM_DISTANCE_PIXELS;
-		int TRIGGER_MAXIMUM_DIST
+		int TRIGGER_MAXIMUM_DISTANCE_PIXELS;
+		int TRIGGER_ALLOWED_Y_DEVIATION_PIXELS;
+		int TRI
