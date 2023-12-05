@@ -208,4 +208,9 @@ class vaaac {
 		int TRIGGER_MAXIMUM_DISTANCE_PIXELS;
 		int TRIGGER_ALLOWED_Y_DEVIATION_PIXELS;
 		int TRIGGER_ALLOWED_X_DEVIATION_PIXELS;
-		std::vector<std::pair<i
+		std::vector<std::pair<int, int>> yxDelta;
+
+	public:
+
+		inline bool isOk() {
+	
