@@ -216,4 +216,9 @@ class vaaac {
 			return ok == 2;
 		}
 
-		inline bool isDetected()
+		inline bool isDetected() {
+			return detected;
+		}
+
+		inline bool isTriggered() {
+			
