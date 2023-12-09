@@ -213,4 +213,7 @@ class vaaac {
 	public:
 
 		inline bool isOk() {
-	
+			return ok == 2;
+		}
+
+		inline bool isDetected()
