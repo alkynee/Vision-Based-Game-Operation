@@ -221,4 +221,8 @@ class vaaac {
 		}
 
 		inline bool isTriggered() {
-			
+			return triggered;
+		}
+
+		inline double getXAngle() {
+			return 
