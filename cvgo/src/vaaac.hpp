@@ -225,4 +225,8 @@ class vaaac {
 		}
 
 		inline double getXAngle() {
-			return 
+			return xAngleSmooth;
+		}
+
+		inline double getYAngle() {
+			return yAngleSmo
