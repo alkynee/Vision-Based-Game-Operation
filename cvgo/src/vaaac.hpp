@@ -229,4 +229,8 @@ class vaaac {
 		}
 
 		inline double getYAngle() {
-			return yAngleSmo
+			return yAngleSmooth;
+		}
+
+		inline cv::Mat getFrame() {
+			return frame;
