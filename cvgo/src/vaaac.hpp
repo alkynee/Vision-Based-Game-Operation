@@ -234,3 +234,8 @@ class vaaac {
 
 		inline cv::Mat getFrame() {
 			return frame;
+		}
+
+		vaaac() {
+			// webcam initialization
+			videoCapture =
