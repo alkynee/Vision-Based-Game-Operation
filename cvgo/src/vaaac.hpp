@@ -247,4 +247,5 @@ class vaaac {
 				return;
 			}
 			// resolution (1:1 aspect ratio)
-			width = videoCaptu
+			width = videoCapture.get(cv::CAP_PROP_FRAME_WIDTH);
+			height = videoCapture.get(cv::CAP_P
