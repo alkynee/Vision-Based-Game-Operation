@@ -238,4 +238,5 @@ class vaaac {
 
 		vaaac() {
 			// webcam initialization
-			videoCapture =
+			videoCapture = cv::VideoCapture(0);
+			videoCapture.set(cv::CAP_PROP_SETT
