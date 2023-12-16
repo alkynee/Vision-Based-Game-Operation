@@ -241,4 +241,9 @@ class vaaac {
 			videoCapture = cv::VideoCapture(0);
 			videoCapture.set(cv::CAP_PROP_SETTINGS, 1);
 			// check if it's alright
-			ok = videoCapture.isOp
+			ok = videoCapture.isOpened();
+			if (!ok) {
+				ok = false;
+				return;
+			}
+			//
