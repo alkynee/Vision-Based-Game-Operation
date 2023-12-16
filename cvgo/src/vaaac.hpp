@@ -246,4 +246,5 @@ class vaaac {
 				ok = false;
 				return;
 			}
-			//
+			// resolution (1:1 aspect ratio)
+			width = videoCaptu
