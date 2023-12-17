@@ -248,4 +248,6 @@ class vaaac {
 			}
 			// resolution (1:1 aspect ratio)
 			width = videoCapture.get(cv::CAP_PROP_FRAME_WIDTH);
-			height = videoCapture.get(cv::CAP_P
+			height = videoCapture.get(cv::CAP_PROP_FRAME_HEIGHT);
+			res = std::min(width, height);
+			halfRe
