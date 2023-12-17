@@ -250,4 +250,5 @@ class vaaac {
 			width = videoCapture.get(cv::CAP_PROP_FRAME_WIDTH);
 			height = videoCapture.get(cv::CAP_PROP_FRAME_HEIGHT);
 			res = std::min(width, height);
-			halfRe
+			halfRes = res / 2;
+			// make the viewport a centered s
