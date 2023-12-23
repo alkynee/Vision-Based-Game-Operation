@@ -256,4 +256,7 @@ class vaaac {
 			if (width > height) {
 				addX = (width - height) / 2;
 			}
-			else if (height > wid
+			else if (height > width) {
+				addY = (height - width) / 2;
+			}
+			// limit camera resolution ra
