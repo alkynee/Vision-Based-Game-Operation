@@ -254,4 +254,6 @@ class vaaac {
 			// make the viewport a centered square
 			int addX = 0, addY = 0;
 			if (width > height) {
-				
+				addX = (width - height) / 2;
+			}
+			else if (height > wid
