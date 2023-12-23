@@ -259,4 +259,5 @@ class vaaac {
 			else if (height > width) {
 				addY = (height - width) / 2;
 			}
-			// limit camera resolution ra
+			// limit camera resolution ratio to 1:1
+			frameBounds = cv::Rect(ad
