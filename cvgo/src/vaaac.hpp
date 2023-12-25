@@ -262,4 +262,5 @@ class vaaac {
 			// limit camera resolution ratio to 1:1
 			frameBounds = cv::Rect(addX, addY, res, res);
 			// determine reticle view area
-			int r
+			int reticlePos = halfRes - RETICLE_SIZE / 2;
+			reticleBounds = c
