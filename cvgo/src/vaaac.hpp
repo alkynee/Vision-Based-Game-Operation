@@ -263,4 +263,4 @@ class vaaac {
 			frameBounds = cv::Rect(addX, addY, res, res);
 			// determine reticle view area
 			int reticlePos = halfRes - RETICLE_SIZE / 2;
-			reticleBounds = c
+			reticleBounds = cv::Rect(reticlePos, reticlePos, RETICLE_SIZE, RETICLE_SIZE);
