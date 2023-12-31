@@ -265,4 +265,5 @@ class vaaac {
 			int reticlePos = halfRes - RETICLE_SIZE / 2;
 			reticleBounds = cv::Rect(reticlePos, reticlePos, RETICLE_SIZE, RETICLE_SIZE);
 			// determine no aim zone
-			int noAimAreaPos = ha
+			int noAimAreaPos = halfRes - NO_AIM_AREA_SIZE / 2;
+			noAimAreaBounds = 
