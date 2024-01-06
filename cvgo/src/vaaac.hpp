@@ -268,4 +268,6 @@ class vaaac {
 			int noAimAreaPos = halfRes - NO_AIM_AREA_SIZE / 2;
 			noAimAreaBounds = cv::Rect(noAimAreaPos, noAimAreaPos, NO_AIM_AREA_SIZE, NO_AIM_AREA_SIZE);
 			// fill up bfs offsets array
-			bfsOffsets.clear
+			bfsOffsets.clear();
+			for (int i = -1; i < 2; ++i) {
+				for (in
