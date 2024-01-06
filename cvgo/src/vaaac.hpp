@@ -266,4 +266,6 @@ class vaaac {
 			reticleBounds = cv::Rect(reticlePos, reticlePos, RETICLE_SIZE, RETICLE_SIZE);
 			// determine no aim zone
 			int noAimAreaPos = halfRes - NO_AIM_AREA_SIZE / 2;
-			noAimAreaBounds = cv::Rect(noAimAreaPos, noAimAreaPos, NO_AIM_AREA_SIZE, NO_AI
+			noAimAreaBounds = cv::Rect(noAimAreaPos, noAimAreaPos, NO_AIM_AREA_SIZE, NO_AIM_AREA_SIZE);
+			// fill up bfs offsets array
+			bfsOffsets.clear
