@@ -273,4 +273,6 @@ class vaaac {
 				for (int j = -1; j < 2; ++j) {
 					bfsOffsets.push_back(std::make_pair<int, int>(i * BFS_SAMPLE_SIZE, j * BFS_SAMPLE_SIZE));
 				}
-	
+			}
+			// precompute trigger system constants
+			TRIGGER_MINIMUM_DISTA
