@@ -276,4 +276,4 @@ class vaaac {
 			}
 			// precompute trigger system constants
 			TRIGGER_MINIMUM_DISTANCE_PIXELS = TRIGGER_MINIMUM_DISTANCE * res / 100.0;
-	
+			TRIGGER_MAXIMUM_DISTANCE_PIXELS = TRIGGER_MAXIMUM_DISTANCE *
