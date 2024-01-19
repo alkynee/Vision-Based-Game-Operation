@@ -279,4 +279,7 @@ class vaaac {
 			TRIGGER_MAXIMUM_DISTANCE_PIXELS = TRIGGER_MAXIMUM_DISTANCE * res / 100.0;
 			TRIGGER_ALLOWED_Y_DEVIATION_PIXELS = TRIGGER_ALLOWED_Y_DEVIATION * res / 100.0;
 			TRIGGER_ALLOWED_X_DEVIATION_PIXELS = TRIGGER_ALLOWED_X_DEVIATION * res / 100.0;
-			// clear y
+			// clear y variance deque
+			increment = true;
+			yxDeltaSize = 0;
+		
