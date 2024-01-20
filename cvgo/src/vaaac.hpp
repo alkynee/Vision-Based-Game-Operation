@@ -282,4 +282,10 @@ class vaaac {
 			// clear y variance deque
 			increment = true;
 			yxDeltaSize = 0;
+			yxDelta.clear();
+		}
+
+		~vaaac() {}
+
+		void calibrateSkinTone() {
 		
