@@ -293,4 +293,6 @@ class vaaac {
 				int yCoord = res / 2 - SAMPLE_AREA_HEIGHT / 2;
 				int rectSizeX = std::min(SAMPLE_AREA_WIDTH, halfRes);
 				int rectSizeY = std::min(SAMPLE_AREA_HEIGHT, halfRes);
-				cv::Rect area(
+				cv::Rect area(xCoord, yCoord, rectSizeX, rectSizeY);
+				for (;;) {
+	
