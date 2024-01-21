@@ -289,4 +289,5 @@ class vaaac {
 
 		void calibrateSkinTone() {
 			if (ok & 1) {
-				int xCoord = res / 2 - SAMPLE_AR
+				int xCoord = res / 2 - SAMPLE_AREA_WIDTH / 2;
+				int yCoord = res / 2 - SAMPLE_AREA_HEIG
