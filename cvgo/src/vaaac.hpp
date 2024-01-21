@@ -290,4 +290,6 @@ class vaaac {
 		void calibrateSkinTone() {
 			if (ok & 1) {
 				int xCoord = res / 2 - SAMPLE_AREA_WIDTH / 2;
-				int yCoord = res / 2 - SAMPLE_AREA_HEIG
+				int yCoord = res / 2 - SAMPLE_AREA_HEIGHT / 2;
+				int rectSizeX = std::min(SAMPLE_AREA_WIDTH, halfRes);
+				in
