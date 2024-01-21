@@ -288,4 +288,5 @@ class vaaac {
 		~vaaac() {}
 
 		void calibrateSkinTone() {
-		
+			if (ok & 1) {
+				int xCoord = res / 2 - SAMPLE_AR
