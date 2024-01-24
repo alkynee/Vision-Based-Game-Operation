@@ -297,4 +297,6 @@ class vaaac {
 				for (;;) {
 					videoCapture >> frame;
 					frame = frame(frameBounds);
-					
+					if (RENDER_SAMPLE_TEXT) {
+						cv::putText(
+								frame,
