@@ -295,4 +295,6 @@ class vaaac {
 				int rectSizeY = std::min(SAMPLE_AREA_HEIGHT, halfRes);
 				cv::Rect area(xCoord, yCoord, rectSizeX, rectSizeY);
 				for (;;) {
-	
+					videoCapture >> frame;
+					frame = frame(frameBounds);
+					
