@@ -300,3 +300,5 @@ class vaaac {
 					if (RENDER_SAMPLE_TEXT) {
 						cv::putText(
 								frame,
+								"fill the area with your skin.",
+								cv::Point(10,
