@@ -309,4 +309,7 @@ class vaaac {
 						cv::putText(
 								frame,
 								"then press any key.",
-								cv::Point(10, area.
+								cv::Point(10, area.y - 20),
+								cv::FONT_HERSHEY_DUPLEX,
+								1.0,
+								cv::S
