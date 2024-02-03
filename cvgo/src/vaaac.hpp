@@ -312,4 +312,8 @@ class vaaac {
 								cv::Point(10, area.y - 20),
 								cv::FONT_HERSHEY_DUPLEX,
 								1.0,
-								cv::S
+								cv::Scalar(255, 255, 255),
+								1);
+					}
+					/*
+				
