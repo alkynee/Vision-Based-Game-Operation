@@ -308,3 +308,5 @@ class vaaac {
 								1);
 						cv::putText(
 								frame,
+								"then press any key.",
+								cv::Point(10, area.
