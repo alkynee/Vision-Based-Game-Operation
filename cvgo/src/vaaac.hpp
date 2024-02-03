@@ -301,4 +301,7 @@ class vaaac {
 						cv::putText(
 								frame,
 								"fill the area with your skin.",
-								cv::Point(10,
+								cv::Point(10, area.y - 60),
+								cv::FONT_HERSHEY_DUPLEX,
+								1.0,
+								cv::Scalar(255, 2
