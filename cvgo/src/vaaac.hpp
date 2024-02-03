@@ -304,4 +304,7 @@ class vaaac {
 								cv::Point(10, area.y - 60),
 								cv::FONT_HERSHEY_DUPLEX,
 								1.0,
-								cv::Scalar(255, 2
+								cv::Scalar(255, 255, 255),
+								1);
+						cv::putText(
+								frame,
