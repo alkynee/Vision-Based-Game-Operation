@@ -316,4 +316,5 @@ class vaaac {
 								1);
 					}
 					/*
-				
+					 * check if user is done before
+					 * drawing rectangle because,
