@@ -319,4 +319,6 @@ class vaaac {
 					 * check if user is done before
 					 * drawing rectangle because,
 					 * otherwise, the rectangle gets
-					 * computed
+					 * computed as the skin tone mean
+					 */
+					int key = cv::waitKey(1
