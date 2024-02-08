@@ -318,3 +318,5 @@ class vaaac {
 					/*
 					 * check if user is done before
 					 * drawing rectangle because,
+					 * otherwise, the rectangle gets
+					 * computed
