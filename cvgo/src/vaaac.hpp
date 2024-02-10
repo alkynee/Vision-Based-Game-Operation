@@ -328,4 +328,7 @@ class vaaac {
 					// now draw rectangle and draw
 					if (RENDER_TO_WINDOW) {
 						cv::rectangle(frame, area, cv::Scalar(255, 255, 255), 2);
-						cv::i
+						cv::imshow("calibrateSkinTone", frame);
+					}
+				}
+				if (RENDER_
