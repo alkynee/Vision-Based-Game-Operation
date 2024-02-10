@@ -331,4 +331,6 @@ class vaaac {
 						cv::imshow("calibrateSkinTone", frame);
 					}
 				}
-				if (RENDER_
+				if (RENDER_TO_WINDOW) {
+					cv::destroyWindow("calibrateSkinTone");
+			
