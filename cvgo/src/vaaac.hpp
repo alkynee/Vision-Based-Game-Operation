@@ -327,4 +327,5 @@ class vaaac {
 					}
 					// now draw rectangle and draw
 					if (RENDER_TO_WINDOW) {
-						cv::r
+						cv::rectangle(frame, area, cv::Scalar(255, 255, 255), 2);
+						cv::i
