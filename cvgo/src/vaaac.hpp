@@ -325,4 +325,6 @@ class vaaac {
 					if (key != -1) {
 						break;
 					}
-					// 
+					// now draw rectangle and draw
+					if (RENDER_TO_WINDOW) {
+						cv::r
