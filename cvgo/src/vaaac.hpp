@@ -321,4 +321,8 @@ class vaaac {
 					 * otherwise, the rectangle gets
 					 * computed as the skin tone mean
 					 */
-					int key = cv::waitKey(1
+					int key = cv::waitKey(1);
+					if (key != -1) {
+						break;
+					}
+					// 
