@@ -333,4 +333,6 @@ class vaaac {
 				}
 				if (RENDER_TO_WINDOW) {
 					cv::destroyWindow("calibrateSkinTone");
-			
+				}
+				cv::Mat hsv;
+				cv::cvtColor(frame, hsv, cv::CO
