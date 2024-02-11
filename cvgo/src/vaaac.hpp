@@ -335,4 +335,6 @@ class vaaac {
 					cv::destroyWindow("calibrateSkinTone");
 				}
 				cv::Mat hsv;
-				cv::cvtColor(frame, hsv, cv::CO
+				cv::cvtColor(frame, hsv, cv::COLOR_BGR2HSV);
+				cv::Mat sample(hsv, area);
+				cv::Scalar
