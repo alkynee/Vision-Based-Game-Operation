@@ -338,4 +338,6 @@ class vaaac {
 				cv::cvtColor(frame, hsv, cv::COLOR_BGR2HSV);
 				cv::Mat sample(hsv, area);
 				cv::Scalar mean = cv::mean(sample);
-				hLow = mean[0] - MASK_LOW_TOLERANC
+				hLow = mean[0] - MASK_LOW_TOLERANCE;
+				hHigh = mean[0] + MASK_HIGH_TOLERANCE;
+				sLow = mean[
