@@ -340,4 +340,5 @@ class vaaac {
 				cv::Scalar mean = cv::mean(sample);
 				hLow = mean[0] - MASK_LOW_TOLERANCE;
 				hHigh = mean[0] + MASK_HIGH_TOLERANCE;
-				sLow = mean[
+				sLow = mean[1] - MASK_LOW_TOLERANCE;
+				sHigh = mean[1] + MASK_HIG
