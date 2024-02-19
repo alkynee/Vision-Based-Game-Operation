@@ -341,4 +341,8 @@ class vaaac {
 				hLow = mean[0] - MASK_LOW_TOLERANCE;
 				hHigh = mean[0] + MASK_HIGH_TOLERANCE;
 				sLow = mean[1] - MASK_LOW_TOLERANCE;
-				sHigh = mean[1] + MASK_HIG
+				sHigh = mean[1] + MASK_HIGH_TOLERANCE;
+				vLow = 0;
+				vHigh = 255;
+				ok = 2;
+	
