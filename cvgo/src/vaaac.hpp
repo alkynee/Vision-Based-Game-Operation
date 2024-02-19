@@ -345,4 +345,9 @@ class vaaac {
 				vLow = 0;
 				vHigh = 255;
 				ok = 2;
-	
+			}
+		}
+
+		void update() {
+
+			//                            
