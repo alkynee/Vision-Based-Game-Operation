@@ -350,4 +350,6 @@ class vaaac {
 
 		void update() {
 
-			//                            
+			//                                    //
+			//-- i m a g e  p r o c e s s i n g --//
+			//    
