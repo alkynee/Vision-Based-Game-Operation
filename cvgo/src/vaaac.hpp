@@ -354,4 +354,6 @@ class vaaac {
 			//-- i m a g e  p r o c e s s i n g --//
 			//                                    //
 
-			// always false be
+			// always false before processing
+			detected = false;
+			triggered = f
