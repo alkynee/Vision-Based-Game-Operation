@@ -356,4 +356,7 @@ class vaaac {
 
 			// always false before processing
 			detected = false;
-			triggered = f
+			triggered = false;
+			// get current frame
+			videoCapture >> frame;
+		
