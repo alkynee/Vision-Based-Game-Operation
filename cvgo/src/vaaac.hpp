@@ -359,4 +359,6 @@ class vaaac {
 			triggered = false;
 			// get current frame
 			videoCapture >> frame;
-		
+			// reshape
+			frame = frame(frameBounds);
+			// to hs
