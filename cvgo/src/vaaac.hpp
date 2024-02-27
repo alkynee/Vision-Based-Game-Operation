@@ -361,4 +361,7 @@ class vaaac {
 			videoCapture >> frame;
 			// reshape
 			frame = frame(frameBounds);
-			// to hs
+			// to hsv
+			cv::cvtColor(frame, mask, cv::COLOR_BGR2HSV);
+			// binarization
+		
