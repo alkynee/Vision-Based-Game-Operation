@@ -366,4 +366,5 @@ class vaaac {
 			// binarization
 			cv::inRange(mask, cv::Scalar(hLow, sLow, vLow), cv::Scalar(hHigh, sHigh, vHigh), mask);
 			// noise reduction
-			cv::Mat structuringElement = cv::getStructuringElement(cv::MORPH_ELLIPSE, { 3, 3
+			cv::Mat structuringElement = cv::getStructuringElement(cv::MORPH_ELLIPSE, { 3, 3 });
+			cv::morphologyEx(mask, mask, cv::MORPH_OPEN, str
