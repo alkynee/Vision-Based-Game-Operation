@@ -364,4 +364,6 @@ class vaaac {
 			// to hsv
 			cv::cvtColor(frame, mask, cv::COLOR_BGR2HSV);
 			// binarization
-			cv::inRange(mask, cv::Scalar(hLow, sLow, vLow), cv::Scalar(
+			cv::inRange(mask, cv::Scalar(hLow, sLow, vLow), cv::Scalar(hHigh, sHigh, vHigh), mask);
+			// noise reduction
+			cv::Mat struc
