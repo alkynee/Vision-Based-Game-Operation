@@ -368,4 +368,7 @@ class vaaac {
 			// noise reduction
 			cv::Mat structuringElement = cv::getStructuringElement(cv::MORPH_ELLIPSE, { 3, 3 });
 			cv::morphologyEx(mask, mask, cv::MORPH_OPEN, structuringElement);
-			cv::dilate(mask, mask, cv::Mat(), { -1, -1
+			cv::dilate(mask, mask, cv::Mat(), { -1, -1 }, 1);
+			/*
+			 * check existance of object within
+			 * th
