@@ -374,4 +374,5 @@ class vaaac {
 			 * the reticle area's
 			 */
 			int xMin = reticleBounds.x;
-			int yMin
+			int yMin = reticleBounds.y;
+			int xMax = reticleBounds.x + reticleBounds
