@@ -371,4 +371,7 @@ class vaaac {
 			cv::dilate(mask, mask, cv::Mat(), { -1, -1 }, 1);
 			/*
 			 * check existance of object within
-			 * th
+			 * the reticle area's
+			 */
+			int xMin = reticleBounds.x;
+			int yMin
