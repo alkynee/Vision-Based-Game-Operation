@@ -376,4 +376,7 @@ class vaaac {
 			int xMin = reticleBounds.x;
 			int yMin = reticleBounds.y;
 			int xMax = reticleBounds.x + reticleBounds.width;
-			int yMax = reticleBounds.y + reticleBounds.heigh
+			int yMax = reticleBounds.y + reticleBounds.height;
+			int xAim = halfRes;
+			int yAim = halfRes;
+			xAngl
