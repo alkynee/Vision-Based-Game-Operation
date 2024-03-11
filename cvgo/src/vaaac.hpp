@@ -379,4 +379,6 @@ class vaaac {
 			int yMax = reticleBounds.y + reticleBounds.height;
 			int xAim = halfRes;
 			int yAim = halfRes;
-			xAngl
+			xAngle = -100.0;
+			yAngle = -100.0;
+			if (cv::mean(mask(reticleBounds))[0] >
