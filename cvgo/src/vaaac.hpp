@@ -381,4 +381,6 @@ class vaaac {
 			int yAim = halfRes;
 			xAngle = -100.0;
 			yAngle = -100.0;
-			if (cv::mean(mask(reticleBounds))[0] >
+			if (cv::mean(mask(reticleBounds))[0] > 0) {
+				detected = true;
+				std::vector<std::vector<
