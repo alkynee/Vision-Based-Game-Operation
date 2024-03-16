@@ -383,4 +383,5 @@ class vaaac {
 			yAngle = -100.0;
 			if (cv::mean(mask(reticleBounds))[0] > 0) {
 				detected = true;
-				std::vector<std::vector<
+				std::vector<std::vector<bool>> visited(res + 1, std::vector<bool>(res + 1, false));
+				st
