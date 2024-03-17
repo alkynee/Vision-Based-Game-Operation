@@ -384,4 +384,5 @@ class vaaac {
 			if (cv::mean(mask(reticleBounds))[0] > 0) {
 				detected = true;
 				std::vector<std::vector<bool>> visited(res + 1, std::vector<bool>(res + 1, false));
-				st
+				std::queue<std::pair<int, int>> q;
+				for (int i = halfRes - RETIC
