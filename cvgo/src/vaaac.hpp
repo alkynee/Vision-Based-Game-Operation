@@ -385,4 +385,5 @@ class vaaac {
 				detected = true;
 				std::vector<std::vector<bool>> visited(res + 1, std::vector<bool>(res + 1, false));
 				std::queue<std::pair<int, int>> q;
-				for (int i = halfRes - RETICLE_SIZE / 2; i <= halfRes + RETICLE_SIZE / 2; i += BFS_SAMPLE_SIZE) 
+				for (int i = halfRes - RETICLE_SIZE / 2; i <= halfRes + RETICLE_SIZE / 2; i += BFS_SAMPLE_SIZE) {
+					for (int j = halfRes - RETICLE_SIZE / 2; j <= halfRes + RETI
