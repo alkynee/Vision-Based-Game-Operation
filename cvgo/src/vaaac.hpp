@@ -387,4 +387,5 @@ class vaaac {
 				std::queue<std::pair<int, int>> q;
 				for (int i = halfRes - RETICLE_SIZE / 2; i <= halfRes + RETICLE_SIZE / 2; i += BFS_SAMPLE_SIZE) {
 					for (int j = halfRes - RETICLE_SIZE / 2; j <= halfRes + RETICLE_SIZE / 2; j += BFS_SAMPLE_SIZE) {
-						for (auto& offs
+						for (auto& offset : bfsOffsets) {
+							if (offset.first < 0 || offset.second < 
