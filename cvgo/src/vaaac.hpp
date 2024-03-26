@@ -391,4 +391,9 @@ class vaaac {
 							if (offset.first < 0 || offset.second < 0) {
 								continue;
 							}
-							int x = i + offset.first, y = j +
+							int x = i + offset.first, y = j + offset.second;
+							q.push({ x, y });
+						}
+					}
+				}
+				for (; !q.emp
