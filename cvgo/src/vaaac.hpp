@@ -396,4 +396,6 @@ class vaaac {
 						}
 					}
 				}
-				for (; !q.emp
+				for (; !q.empty(); ) {
+					std::pair<int, int> xy = q.front();
+					int x = xy.
