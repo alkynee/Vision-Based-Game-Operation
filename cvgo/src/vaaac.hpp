@@ -400,4 +400,6 @@ class vaaac {
 					std::pair<int, int> xy = q.front();
 					int x = xy.first, y = xy.second;
 					q.pop();
-					if (x < 0 || y < 0 || x + BFS_SAMPLE_SIZE > res || y + BFS_SAMPLE_SIZE > res || visited[x
+					if (x < 0 || y < 0 || x + BFS_SAMPLE_SIZE > res || y + BFS_SAMPLE_SIZE > res || visited[x][y]) continue;
+					visited[x][y] = true;
+					if (cv::mean(mask(cv:
