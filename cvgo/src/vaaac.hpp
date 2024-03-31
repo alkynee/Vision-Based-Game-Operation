@@ -398,4 +398,6 @@ class vaaac {
 				}
 				for (; !q.empty(); ) {
 					std::pair<int, int> xy = q.front();
-					int x = xy.
+					int x = xy.first, y = xy.second;
+					q.pop();
+					if (x < 0 || y < 0 || x + BFS
