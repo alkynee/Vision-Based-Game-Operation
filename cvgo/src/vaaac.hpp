@@ -406,4 +406,7 @@ class vaaac {
 					/*
 					 * update furthermost point coordinates.
 					 * works because the bfs algorithm always
-					 * visits
+					 * visits the furthermost element in the
+					 * last place
+					 */
+				
