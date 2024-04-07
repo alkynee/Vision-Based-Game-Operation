@@ -409,4 +409,6 @@ class vaaac {
 					 * visits the furthermost element in the
 					 * last place
 					 */
-				
+					xAim = x;
+					yAim = y;
+					// update found object area bound
