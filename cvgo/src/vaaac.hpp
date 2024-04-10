@@ -411,4 +411,6 @@ class vaaac {
 					 */
 					xAim = x;
 					yAim = y;
-					// update found object area bound
+					// update found object area bounds
+					xMin = std::min(xMin, x);
+					yMin = std::min(yMin
