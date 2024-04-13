@@ -416,4 +416,5 @@ class vaaac {
 					yMin = std::min(yMin, y);
 					xMax = std::max(xMax, x);
 					yMax = std::max(yMax, y);
-					// ad
+					// add neighbors to queue
+					for (auto& offset : bfsOffset
