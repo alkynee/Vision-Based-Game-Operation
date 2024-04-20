@@ -422,4 +422,6 @@ class vaaac {
 					}
 				}
 				/*
-				 * check if
+				 * check if aim point falls within
+				 * the no aim area boundaries.
+				 * s
