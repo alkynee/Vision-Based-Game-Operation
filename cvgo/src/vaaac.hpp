@@ -418,4 +418,8 @@ class vaaac {
 					yMax = std::max(yMax, y);
 					// add neighbors to queue
 					for (auto& offset : bfsOffsets) {
-						q.push(std::make_pair<int, int>(x + offset.first, y +
+						q.push(std::make_pair<int, int>(x + offset.first, y + offset.second));
+					}
+				}
+				/*
+				 * check if
