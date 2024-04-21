@@ -424,4 +424,7 @@ class vaaac {
 				/*
 				 * check if aim point falls within
 				 * the no aim area boundaries.
-				 * s
+				 * set angles to zero if that's the
+				 * case
+				 */
+				if (noAim
