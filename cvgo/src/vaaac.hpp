@@ -427,4 +427,5 @@ class vaaac {
 				 * set angles to zero if that's the
 				 * case
 				 */
-				if (noAim
+				if (noAimAreaBounds.contains(cv::Point(xAim, yAim))) {
+					yAim = halfRes;
