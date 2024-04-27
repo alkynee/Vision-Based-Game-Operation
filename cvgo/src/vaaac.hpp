@@ -435,4 +435,6 @@ class vaaac {
 				 * check if there's a clear peak in
 				 * the y variance
 				 */
-				if (!yxDeltaSize)
+				if (!yxDeltaSize) {
+					yxDelta.push_back({ yAim, xAim });
+					yxDeltaS
