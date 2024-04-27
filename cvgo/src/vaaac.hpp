@@ -429,3 +429,7 @@ class vaaac {
 				 */
 				if (noAimAreaBounds.contains(cv::Point(xAim, yAim))) {
 					yAim = halfRes;
+					xAim = halfRes;
+				}
+				/*
+				 * check if there's a clear peak
