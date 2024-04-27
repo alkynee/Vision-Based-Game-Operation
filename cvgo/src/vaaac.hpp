@@ -432,4 +432,7 @@ class vaaac {
 					xAim = halfRes;
 				}
 				/*
-				 * check if there's a clear peak
+				 * check if there's a clear peak in
+				 * the y variance
+				 */
+				if (!yxDeltaSize)
