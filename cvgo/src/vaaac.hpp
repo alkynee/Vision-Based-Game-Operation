@@ -441,4 +441,6 @@ class vaaac {
 				} else if (increment) {
 					if (yAim <= yxDelta[yxDeltaSize - 1].first) {
 						++yxDeltaSize;
-		
+						yxDelta.push_back({ yAim, xAim });
+					} else {
+						int y
