@@ -444,3 +444,4 @@ class vaaac {
 						yxDelta.push_back({ yAim, xAim });
 					} else {
 						int yDelta = yxDelta[0].first - yxDelta[yxDeltaSize - 1].first;
+						if (yDelta >= TRIGGER_MINIMUM_DISTANCE_PIXELS && yDelta <= TRIG
