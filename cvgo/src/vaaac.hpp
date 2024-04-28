@@ -443,4 +443,4 @@ class vaaac {
 						++yxDeltaSize;
 						yxDelta.push_back({ yAim, xAim });
 					} else {
-						int y
+						int yDelta = yxDelta[0].first - yxDelta[yxDeltaSize - 1].first;
