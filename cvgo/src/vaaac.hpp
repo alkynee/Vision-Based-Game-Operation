@@ -447,3 +447,7 @@ class vaaac {
 						if (yDelta >= TRIGGER_MINIMUM_DISTANCE_PIXELS && yDelta <= TRIGGER_MAXIMUM_DISTANCE_PIXELS) {
 							increment = false;
 						} else {
+							yxDeltaSize = 0;
+							yxDelta.clear();
+						}
+					
