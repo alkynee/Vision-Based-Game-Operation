@@ -450,4 +450,6 @@ class vaaac {
 							yxDeltaSize = 0;
 							yxDelta.clear();
 						}
-					
+					}
+				} else {
+					if (yAim >= yxDelta[yxDeltaSize - 1]
