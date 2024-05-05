@@ -452,4 +452,6 @@ class vaaac {
 						}
 					}
 				} else {
-					if (yAim >= yxDelta[yxDeltaSize - 1]
+					if (yAim >= yxDelta[yxDeltaSize - 1].first) {
+						yxDelta.push_back({ yAim, xAim });
+						++yxDelta
