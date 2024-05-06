@@ -454,4 +454,6 @@ class vaaac {
 				} else {
 					if (yAim >= yxDelta[yxDeltaSize - 1].first) {
 						yxDelta.push_back({ yAim, xAim });
-						++yxDelta
+						++yxDeltaSize;
+					} else {
+						std::pair<int, in
