@@ -456,4 +456,5 @@ class vaaac {
 						yxDelta.push_back({ yAim, xAim });
 						++yxDeltaSize;
 					} else {
-						std::pair<int, in
+						std::pair<int, int> left = yxDelta[0];
+						std::pair<int, int> right = yxDelta[yxDeltaSize -
