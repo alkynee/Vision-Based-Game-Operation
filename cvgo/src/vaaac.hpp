@@ -457,4 +457,6 @@ class vaaac {
 						++yxDeltaSize;
 					} else {
 						std::pair<int, int> left = yxDelta[0];
-						std::pair<int, int> right = yxDelta[yxDeltaSize -
+						std::pair<int, int> right = yxDelta[yxDeltaSize - 1];
+						bool ok = true;
+						ok &= std::abs(left.first - r
