@@ -460,4 +460,4 @@ class vaaac {
 						std::pair<int, int> right = yxDelta[yxDeltaSize - 1];
 						bool ok = true;
 						ok &= std::abs(left.first - right.first) <= TRIGGER_ALLOWED_Y_DEVIATION_PIXELS;
-						ok
+						ok &= std::abs(left.second - right.second) <= TRIGGER_ALLOWED_X_DEVIA
