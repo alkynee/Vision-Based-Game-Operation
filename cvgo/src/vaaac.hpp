@@ -463,4 +463,8 @@ class vaaac {
 						ok &= std::abs(left.second - right.second) <= TRIGGER_ALLOWED_X_DEVIATION_PIXELS;
 						if (ok) {
 							triggered = true;
-							yAim = left
+							yAim = left.first;
+							xAim = left.second;
+						}
+						increment = true;
+						
