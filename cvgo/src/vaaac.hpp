@@ -467,4 +467,8 @@ class vaaac {
 							xAim = left.second;
 						}
 						increment = true;
-						
+						yxDelta.clear();
+					}
+				}
+				// make angles
+				yAngle = -(double)(halfRes
