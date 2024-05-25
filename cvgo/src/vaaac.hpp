@@ -471,4 +471,5 @@ class vaaac {
 					}
 				}
 				// make angles
-				yAngle = -(double)(halfRes
+				yAngle = -(double)(halfRes - yAim) / halfRes * 90.0;
+				xAngle = -(double)(hal
