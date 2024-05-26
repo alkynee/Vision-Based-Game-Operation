@@ -473,4 +473,5 @@ class vaaac {
 				// make angles
 				yAngle = -(double)(halfRes - yAim) / halfRes * 90.0;
 				xAngle = -(double)(halfRes - xAim) / halfRes * 90.0;
-				yAngleSmooth += (yAngle - yAngl
+				yAngleSmooth += (yAngle - yAngleSmooth) / (double)(AIM_SMOOTHNESS);
+				xAngleSmooth += (xAngle - xAngleSm
