@@ -474,4 +474,6 @@ class vaaac {
 				yAngle = -(double)(halfRes - yAim) / halfRes * 90.0;
 				xAngle = -(double)(halfRes - xAim) / halfRes * 90.0;
 				yAngleSmooth += (yAngle - yAngleSmooth) / (double)(AIM_SMOOTHNESS);
-				xAngleSmooth += (xAngle - xAngleSm
+				xAngleSmooth += (xAngle - xAngleSmooth) / (double)(AIM_SMOOTHNESS);
+				/*Fyx
+				 * cut ou
