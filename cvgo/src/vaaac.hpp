@@ -476,4 +476,6 @@ class vaaac {
 				yAngleSmooth += (yAngle - yAngleSmooth) / (double)(AIM_SMOOTHNESS);
 				xAngleSmooth += (xAngle - xAngleSmooth) / (double)(AIM_SMOOTHNESS);
 				/*Fyx
-				 * cut ou
+				 * cut out everything outside of the
+				 * object boundaries
+				 
