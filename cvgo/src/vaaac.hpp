@@ -478,4 +478,6 @@ class vaaac {
 				/*Fyx
 				 * cut out everything outside of the
 				 * object boundaries
-				 
+				 */
+				mask(cv::Rect(0, 0, xMin, res)).setTo(cv::Scalar(0));
+				mask(c
