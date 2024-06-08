@@ -480,4 +480,4 @@ class vaaac {
 				 * object boundaries
 				 */
 				mask(cv::Rect(0, 0, xMin, res)).setTo(cv::Scalar(0));
-				mask(c
+				mask(cv::Rect(xMin, 0, res - xMin, yMin)).setTo(cv::Scalar(0));
