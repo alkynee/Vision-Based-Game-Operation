@@ -485,4 +485,5 @@ class vaaac {
 				mask(cv::Rect(xMax, yMin, res - xMax, yMax - yMin)).setTo(cv::Scalar(0));
 			}
 
-			//      
+			//                                   //
+			//-------- r e n d e r i n g
