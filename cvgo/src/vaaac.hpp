@@ -489,4 +489,6 @@ class vaaac {
 			//-------- r e n d e r i n g --------//
 			//                                   //
 
-			
+			if (RENDER_TO_FRAME) {
+				/*
+				 * draw 
