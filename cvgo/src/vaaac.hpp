@@ -491,4 +491,6 @@ class vaaac {
 
 			if (RENDER_TO_FRAME) {
 				/*
-				 * draw 
+				 * draw rectangle indicating either
+				 * the reticle bounds or
+		
