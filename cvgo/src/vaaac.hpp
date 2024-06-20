@@ -493,4 +493,6 @@ class vaaac {
 				/*
 				 * draw rectangle indicating either
 				 * the reticle bounds or
-		
+				 * the found object boundaries'
+				 */
+				cv::rectangle(mask, cv:
