@@ -495,4 +495,6 @@ class vaaac {
 				 * the reticle bounds or
 				 * the found object boundaries'
 				 */
-				cv::rectangle(mask, cv::Rect(xMin, yMin, xMax - xMin, yMax - yMin), cv::Scalar(255, 2
+				cv::rectangle(mask, cv::Rect(xMin, yMin, xMax - xMin, yMax - yMin), cv::Scalar(255, 255, 255), 2);
+				/*
+				 * draw circle indicati
