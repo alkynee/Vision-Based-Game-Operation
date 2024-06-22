@@ -497,4 +497,7 @@ class vaaac {
 				 */
 				cv::rectangle(mask, cv::Rect(xMin, yMin, xMax - xMin, yMax - yMin), cv::Scalar(255, 255, 255), 2);
 				/*
-				 * draw circle indicati
+				 * draw circle indicating furthermost
+				 * point from origin
+				 */
+				cv::c
