@@ -500,4 +500,4 @@ class vaaac {
 				 * draw circle indicating furthermost
 				 * point from origin
 				 */
-				cv::c
+				cv::circle(frame, cv::Point(xAim, yAim), 5, cv::Scalar(255, 0, 255), 
