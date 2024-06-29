@@ -503,4 +503,6 @@ class vaaac {
 				cv::circle(frame, cv::Point(xAim, yAim), 5, cv::Scalar(255, 0, 255), 2);
 				// draw current angles
 				cv::putText(
-						fr
+						frame,
+						"x angle: " + std::to_string(xAngle),
+						cv::Point(0, 
