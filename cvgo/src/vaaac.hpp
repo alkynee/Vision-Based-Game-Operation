@@ -505,4 +505,7 @@ class vaaac {
 				cv::putText(
 						frame,
 						"x angle: " + std::to_string(xAngle),
-						cv::Point(0, 
+						cv::Point(0, 20),
+						cv::FONT_HERSHEY_DUPLEX,
+						0.5,
+						cv::Scalar(255, 
