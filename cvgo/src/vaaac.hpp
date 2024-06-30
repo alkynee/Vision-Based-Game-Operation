@@ -512,4 +512,6 @@ class vaaac {
 						1);
 				cv::putText(
 						frame,
-						"y angle: " + std
+						"y angle: " + std::to_string(yAngle),
+						cv::Point(0, 40),
+						cv::FONT_HERSHE
