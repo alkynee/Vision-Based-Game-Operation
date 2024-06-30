@@ -508,4 +508,8 @@ class vaaac {
 						cv::Point(0, 20),
 						cv::FONT_HERSHEY_DUPLEX,
 						0.5,
-						cv::Scalar(255, 
+						cv::Scalar(255, 255, 255),
+						1);
+				cv::putText(
+						frame,
+						"y angle: " + std
