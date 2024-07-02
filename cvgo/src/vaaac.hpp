@@ -514,4 +514,8 @@ class vaaac {
 						frame,
 						"y angle: " + std::to_string(yAngle),
 						cv::Point(0, 40),
-						cv::FONT_HERSHE
+						cv::FONT_HERSHEY_DUPLEX,
+						0.5,
+						cv::Scalar(255, 255, 255),
+						1);
+			
