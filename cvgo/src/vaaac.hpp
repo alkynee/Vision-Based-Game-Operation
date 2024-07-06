@@ -522,4 +522,6 @@ class vaaac {
 				cv::cvtColor(mask, mask, cv::COLOR_GRAY2RGB);
 				// mix frame with mask
 				cv::addWeighted(mask, 0.5, frame, 1.0, 0.0, frame);
-				// pres
+				// present final image
+				if (RENDER_TO_WINDOW) {
+					cv::im
