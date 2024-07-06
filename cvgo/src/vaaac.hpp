@@ -524,4 +524,8 @@ class vaaac {
 				cv::addWeighted(mask, 0.5, frame, 1.0, 0.0, frame);
 				// present final image
 				if (RENDER_TO_WINDOW) {
-					cv::im
+					cv::imshow("update", frame);
+				}
+			}
+		}
+};
