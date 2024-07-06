@@ -521,4 +521,5 @@ class vaaac {
 				// convert mask to three channel
 				cv::cvtColor(mask, mask, cv::COLOR_GRAY2RGB);
 				// mix frame with mask
-				cv::addWeig
+				cv::addWeighted(mask, 0.5, frame, 1.0, 0.0, frame);
+				// pres
