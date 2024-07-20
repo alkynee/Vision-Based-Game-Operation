@@ -6,4 +6,6 @@ A revolutionary approach to operate the CS:GO game by using computer vision to t
 
 This repository provides a glimpse at it in action: [_**View demonstration**_](https://youtu.be/YiGEf9hP55E).
 
-The user's arm angle and trigger input are handled through the [**_vaaac library_**
+The user's arm angle and trigger input are handled through the [**_vaaac library_**](https://github.com/alkynee/vaaac) created for this purpose.
+
+##
