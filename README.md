@@ -8,4 +8,6 @@ This repository provides a glimpse at it in action: [_**View demonstration**_](h
 
 The user's arm angle and trigger input are handled through the [**_vaaac library_**](https://github.com/alkynee/vaaac) created for this purpose.
 
-##
+## Requirements
+
+You will need to have [OpenCV](ht
