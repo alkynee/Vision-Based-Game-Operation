@@ -4,4 +4,6 @@ A revolutionary approach to operate the CS:GO game by using computer vision to t
 
 ## Synopsis
 
-This repository provides a glimpse at it in action: [_**Vi
+This repository provides a glimpse at it in action: [_**View demonstration**_](https://youtu.be/YiGEf9hP55E).
+
+The use
