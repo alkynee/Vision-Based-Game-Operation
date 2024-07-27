@@ -12,4 +12,6 @@ The user's arm angle and trigger input are handled through the [**_vaaac library
 
 You will need to have [OpenCV](https://opencv.org/) installed to compile this program.
 
-## Platform Consideration
+## Platform Considerations
+
+Currently, this system uses the win32 api, thus it is on
