@@ -14,4 +14,4 @@ You will need to have [OpenCV](https://opencv.org/) installed to compile this pr
 
 ## Platform Considerations
 
-Currently, this system uses the win32 api, thus it is on
+Currently, this system uses the win32 api, thus it is only capable of running on Windows. Adapting it to run on other pla
