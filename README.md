@@ -10,4 +10,6 @@ The user's arm angle and trigger input are handled through the [**_vaaac library
 
 ## Requirements
 
-You will need to have [OpenCV](ht
+You will need to have [OpenCV](https://opencv.org/) installed to compile this program.
+
+## Platform Consideration
