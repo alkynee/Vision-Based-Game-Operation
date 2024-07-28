@@ -14,4 +14,4 @@ You will need to have [OpenCV](https://opencv.org/) installed to compile this pr
 
 ## Platform Considerations
 
-Currently, this system uses the win32 api, thus it is only capable of running on Windows. Adapting it to run on other platforms or with other video games shouldn't be too complicated, given that the primary [__*vaaac*__](https://github.
+Currently, this system uses the win32 api, thus it is only capable of running on Windows. Adapting it to run on other platforms or with other video games shouldn't be too complicated, given that the primary [__*vaaac*__](https://github.com/alkynee/vaaac) library is platform-agnosti
