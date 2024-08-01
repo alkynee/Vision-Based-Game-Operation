@@ -18,4 +18,4 @@ Currently, this system uses the win32 api, thus it is only capable of running on
 
 ## Legal Notice
 
-Please note: This software modifies the game's memory to alter viewing angles and firing states, much
+Please note: This software modifies the game's memory to alter viewing angles and firing states, much like a conventional 'hack'. __This software does NOT provide any f
